@@ -1,6 +1,6 @@
 const { types: t } = require('@babel/core');
 
-module.exports = function(api) {
+module.exports = function() {
     return {
         visitor: {
             CallExpression(path) {
